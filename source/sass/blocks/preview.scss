@@ -13,6 +13,7 @@
 }
 
 .preview__title {
+  font-weight: 500;
   font-size: 42px;
   line-height: 42px;
   margin: 0 0 20px;
@@ -43,6 +44,7 @@
 
   outline: none;
 
+  cursor: pointer;
 
   &:hover,
   &:focus-visible {
@@ -60,7 +62,7 @@
   }
 
   .preview__text {
-    padding-right: 250px;
+    padding-right: 100px;
   }
 }
 
